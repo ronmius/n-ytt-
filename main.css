@@ -1,0 +1,45 @@
+sön{
+    color: #000000;
+    background-color: #FFFFFF;
+    color: #FCCB00;
+    color: #E44423;
+    color: #5C9ED9;
+    color: #1769B6;
+    color: #CDDF8D;
+}
+body{    
+    margin: 0;
+    height: 100vh;
+   align-self: center;
+    width: 1000px;
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color:#5C9ED9; ;
+}
+a{
+    color: #FFFFFF;
+    padding: 12px;
+}
+
+a:hover{
+    color: #000000;
+}
+a:visited{
+    color: #FCCB00;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+    width: auto;
+    height: 100px;
+}
+header{
+    background-color: #1769B6;
+    width: 800px;
+    height: 240px;
+}
+h1{
+    size: 36px;
+}
