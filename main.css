@@ -10,7 +10,6 @@ sön{
 body{    
     margin: 0;
     height: 100vh;
-   align-self: center;
     width: 1000px;
     padding-left: 3em;
     padding-top: 1em;
@@ -35,11 +34,35 @@ main{
     width: auto;
     height: 100px;
 }
+div.centainer{
+    display: flex;
+    flex-direction: row;
+}
+pa{
+    padding-top: 50px;
+    padding-left: 20px;
+}
 header{
     background-color: #1769B6;
-    width: 800px;
+    width: 100%;
     height: 240px;
 }
 h1{
     size: 36px;
+}
+div.mainpage{
+    display: flex;
+    padding: 10px;
+    background-color: #CDDF8D;
+    flex-direction: row;
+    -ms-flex-item-align: center;
+    gap: 20%;
+}
+div.maininfopic{
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFFFFF;
+    margin: 1px;
+    padding: 10px;
 }
