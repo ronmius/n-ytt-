@@ -17,15 +17,15 @@ body{
     background-color:#5C9ED9; ;
 }
 a{
-    color: #FFFFFF;
+    color: #000000;
     padding: 12px;
 }
 
 a:hover{
-    color: #000000;
+    color: #ffffff;
 }
 a:visited{
-    color: #FCCB00;
+    color: #000000;
 }
 main{
     display: flex;
@@ -63,6 +63,43 @@ div.maininfopic{
     display: flex;
     flex-direction: column;
     background-color:#FFFFFF;
+    margin: 1px;    
+    padding: 10px;
+    align-items: center;
+}
+div.slop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: #000000;
+    border-radius: 2px;
+    margin: 10px;
+    
+}
+div.maininfopica{
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
     margin: 1px;
     padding: 10px;
+    align-items: center;
+}
+div.maininfopice{
+    justify-content: right;
+    display: flex;
+    flex-direction: column;
+    margin: 1px;
+    padding: 10px;
+    align-items: start;
+}
+div.mainpage2{
+    display: flex;
+    padding: 10px;
+    background-color: #CDDF8D;
+    flex-direction: column;
+    -ms-flex-item-align: center;
+    gap: 20%;
 }
